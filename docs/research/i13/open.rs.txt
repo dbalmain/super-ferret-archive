@@ -1,0 +1,24 @@
+//! Isolated load and into_resident timings, without subsequent queries.
+use ferret_catalog::Catalog;
+use std::path::Path;
+use std::time::Instant;
+
+fn main() -> Result<(), Box<dyn std::error::Error>> {
+    let args: Vec<_> = std::env::args().collect();
+    let start = Instant::now();
+    let catalog = Catalog::open(Path::new(&args[1]))?.ok_or("no catalog")?;
+    catalog.load_all()?;
+    let loaded = Instant::now();
+    let catalog = catalog.into_resident()?;
+    let end = Instant::now();
+    let names = catalog.resident_names().ok_or("no names")?;
+    println!(
+        "{{\"load_ms\":{},\"projection_ms\":{},\"full_ms\":{},\"rows\":{},\"distinct\":{}}}",
+        (loaded - start).as_secs_f64() * 1000.0,
+        (end - loaded).as_secs_f64() * 1000.0,
+        (end - start).as_secs_f64() * 1000.0,
+        names.row_count(),
+        names.distinct_count()
+    );
+    Ok(())
+}

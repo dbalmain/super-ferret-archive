@@ -1,0 +1,5245 @@
+{
+  "base": "7288639f",
+  "cpu": "AMD Ryzen 9 9955HX, 32 logical CPUs, boost disabled",
+  "rustc": "1.95.0 (59807616e 2026-04-14)",
+  "cache": "warm",
+  "contention": "No other cargo, ferret-bench, or hyperfine found by host pgrep checks",
+  "queries": [
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "raw",
+      "rows": 120,
+      "sorted_sha256": "665d16d7bc96a8a330c44a8793a0a4ef027ff18f18897062055a79ea59c92283",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/release/ferret",
+        "--index",
+        "/tmp/i13/real-catalog",
+        "find",
+        "/tmp/i13/tree",
+        "-name",
+        "Cargo.toml"
+      ]
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 0,
+      "wall_ms": 2.554916,
+      "peak_kib": 5680
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 1,
+      "wall_ms": 2.49363,
+      "peak_kib": 5656
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 2,
+      "wall_ms": 2.337786,
+      "peak_kib": 5804
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 3,
+      "wall_ms": 2.502618,
+      "peak_kib": 5544
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 4,
+      "wall_ms": 2.362362,
+      "peak_kib": 5548
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 5,
+      "wall_ms": 2.448675,
+      "peak_kib": 5412
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 6,
+      "wall_ms": 2.457592,
+      "peak_kib": 5724
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 7,
+      "wall_ms": 2.278995,
+      "peak_kib": 5668
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 8,
+      "wall_ms": 2.292791,
+      "peak_kib": 5544
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 9,
+      "wall_ms": 2.361771,
+      "peak_kib": 5740
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 10,
+      "wall_ms": 2.182041,
+      "peak_kib": 5448
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 11,
+      "wall_ms": 2.281109,
+      "peak_kib": 5928
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 12,
+      "wall_ms": 2.393932,
+      "peak_kib": 5564
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 13,
+      "wall_ms": 2.705381,
+      "peak_kib": 5408
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 14,
+      "wall_ms": 2.262434,
+      "peak_kib": 5416
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "raw",
+      "rows": 18,
+      "sorted_sha256": "c1ab6cb8422be3fbf939dbf6c23be9f85df9aef8f8d534ab5a76e1cdccaa9dee",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/release/ferret",
+        "--index",
+        "/tmp/i13/real-catalog",
+        "find",
+        "/tmp/i13/tree",
+        "-name",
+        "*checkpoint*.rs"
+      ]
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 0,
+      "wall_ms": 2.680353,
+      "peak_kib": 5724
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 1,
+      "wall_ms": 2.311717,
+      "peak_kib": 5752
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 2,
+      "wall_ms": 2.321856,
+      "peak_kib": 5680
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 3,
+      "wall_ms": 2.520782,
+      "peak_kib": 5608
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 4,
+      "wall_ms": 2.356992,
+      "peak_kib": 5720
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 5,
+      "wall_ms": 2.269917,
+      "peak_kib": 5408
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 6,
+      "wall_ms": 2.394663,
+      "peak_kib": 5556
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 7,
+      "wall_ms": 2.300045,
+      "peak_kib": 5460
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 8,
+      "wall_ms": 2.368304,
+      "peak_kib": 5632
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 9,
+      "wall_ms": 2.366541,
+      "peak_kib": 5536
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 10,
+      "wall_ms": 2.293112,
+      "peak_kib": 5392
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 11,
+      "wall_ms": 2.10697,
+      "peak_kib": 5692
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 12,
+      "wall_ms": 2.193443,
+      "peak_kib": 5448
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 13,
+      "wall_ms": 2.343968,
+      "peak_kib": 5572
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 14,
+      "wall_ms": 2.564303,
+      "peak_kib": 5600
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "raw",
+      "rows": 60,
+      "sorted_sha256": "b6320db34cc9a98ae4c57204ceebcca2576d2ec3c0b412e7e4e946bf966fb02a",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/release/ferret",
+        "--index",
+        "/tmp/i13/real-catalog",
+        "find",
+        "/tmp/i13/tree",
+        "-regex",
+        ".*/read[^/]*[.]rs"
+      ]
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 0,
+      "wall_ms": 3.855723,
+      "peak_kib": 6500
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 1,
+      "wall_ms": 4.416483,
+      "peak_kib": 6484
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 2,
+      "wall_ms": 3.828391,
+      "peak_kib": 6280
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 3,
+      "wall_ms": 4.053527,
+      "peak_kib": 6672
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 4,
+      "wall_ms": 3.654133,
+      "peak_kib": 6252
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 5,
+      "wall_ms": 3.911739,
+      "peak_kib": 6576
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 6,
+      "wall_ms": 3.382489,
+      "peak_kib": 6432
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 7,
+      "wall_ms": 3.733663,
+      "peak_kib": 6328
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 8,
+      "wall_ms": 4.285605,
+      "peak_kib": 6416
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 9,
+      "wall_ms": 3.626259,
+      "peak_kib": 6252
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 10,
+      "wall_ms": 3.70069,
+      "peak_kib": 6720
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 11,
+      "wall_ms": 3.973947,
+      "peak_kib": 6288
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 12,
+      "wall_ms": 4.050341,
+      "peak_kib": 6324
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 13,
+      "wall_ms": 3.858669,
+      "peak_kib": 6408
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 14,
+      "wall_ms": 3.73744,
+      "peak_kib": 7028
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "raw",
+      "rows": 0,
+      "sorted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/release/ferret",
+        "--index",
+        "/tmp/i13/real-catalog",
+        "find",
+        "/tmp/i13/tree",
+        "-name",
+        "i13-no-such-basename-8f0329"
+      ]
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 0,
+      "wall_ms": 2.2289,
+      "peak_kib": 5628
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 1,
+      "wall_ms": 2.129382,
+      "peak_kib": 5440
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 2,
+      "wall_ms": 2.168907,
+      "peak_kib": 5548
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 3,
+      "wall_ms": 2.17032,
+      "peak_kib": 5900
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 4,
+      "wall_ms": 2.28686,
+      "peak_kib": 5448
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 5,
+      "wall_ms": 2.183635,
+      "peak_kib": 5456
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 6,
+      "wall_ms": 2.068818,
+      "peak_kib": 4948
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 7,
+      "wall_ms": 2.142016,
+      "peak_kib": 5728
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 8,
+      "wall_ms": 2.182322,
+      "peak_kib": 5396
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 9,
+      "wall_ms": 2.066173,
+      "peak_kib": 5536
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 10,
+      "wall_ms": 2.028622,
+      "peak_kib": 5632
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 11,
+      "wall_ms": 2.192501,
+      "peak_kib": 5756
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 12,
+      "wall_ms": 2.097883,
+      "peak_kib": 5556
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 13,
+      "wall_ms": 2.180929,
+      "peak_kib": 5540
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 14,
+      "wall_ms": 2.098775,
+      "peak_kib": 5632
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "walk",
+      "rows": 120,
+      "sorted_sha256": "665d16d7bc96a8a330c44a8793a0a4ef027ff18f18897062055a79ea59c92283",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/real-catalog",
+        "find",
+        "/tmp/i13/tree",
+        "-name",
+        "Cargo.toml"
+      ]
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 0,
+      "wall_ms": 2.381609,
+      "peak_kib": 5716
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 1,
+      "wall_ms": 2.331474,
+      "peak_kib": 5632
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 2,
+      "wall_ms": 2.893215,
+      "peak_kib": 5648
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 3,
+      "wall_ms": 2.200797,
+      "peak_kib": 5548
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 4,
+      "wall_ms": 2.157024,
+      "peak_kib": 5824
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 5,
+      "wall_ms": 2.3026,
+      "peak_kib": 5680
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 6,
+      "wall_ms": 2.110566,
+      "peak_kib": 5512
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 7,
+      "wall_ms": 2.052918,
+      "peak_kib": 5968
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 8,
+      "wall_ms": 2.018783,
+      "peak_kib": 5740
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 9,
+      "wall_ms": 2.157185,
+      "peak_kib": 5480
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 10,
+      "wall_ms": 2.079228,
+      "peak_kib": 5684
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 11,
+      "wall_ms": 2.306907,
+      "peak_kib": 5968
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 12,
+      "wall_ms": 2.813495,
+      "peak_kib": 5748
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 13,
+      "wall_ms": 2.736118,
+      "peak_kib": 5812
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 14,
+      "wall_ms": 3.411965,
+      "peak_kib": 5460
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "walk",
+      "rows": 18,
+      "sorted_sha256": "c1ab6cb8422be3fbf939dbf6c23be9f85df9aef8f8d534ab5a76e1cdccaa9dee",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/real-catalog",
+        "find",
+        "/tmp/i13/tree",
+        "-name",
+        "*checkpoint*.rs"
+      ]
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 0,
+      "wall_ms": 2.614488,
+      "peak_kib": 5656
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 1,
+      "wall_ms": 2.558973,
+      "peak_kib": 5808
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 2,
+      "wall_ms": 2.567841,
+      "peak_kib": 5668
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 3,
+      "wall_ms": 2.469555,
+      "peak_kib": 5632
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 4,
+      "wall_ms": 2.601795,
+      "peak_kib": 5676
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 5,
+      "wall_ms": 2.398461,
+      "peak_kib": 5848
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 6,
+      "wall_ms": 2.330953,
+      "peak_kib": 5548
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 7,
+      "wall_ms": 2.278273,
+      "peak_kib": 5760
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 8,
+      "wall_ms": 2.651178,
+      "peak_kib": 5588
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 9,
+      "wall_ms": 2.397339,
+      "peak_kib": 5768
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 10,
+      "wall_ms": 2.316255,
+      "peak_kib": 5472
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 11,
+      "wall_ms": 2.375798,
+      "peak_kib": 5648
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 12,
+      "wall_ms": 2.294304,
+      "peak_kib": 5412
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 13,
+      "wall_ms": 2.320814,
+      "peak_kib": 5676
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 14,
+      "wall_ms": 2.26576,
+      "peak_kib": 5232
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "walk",
+      "rows": 60,
+      "sorted_sha256": "b6320db34cc9a98ae4c57204ceebcca2576d2ec3c0b412e7e4e946bf966fb02a",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/real-catalog",
+        "find",
+        "/tmp/i13/tree",
+        "-regex",
+        ".*/read[^/]*[.]rs"
+      ]
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 0,
+      "wall_ms": 3.659523,
+      "peak_kib": 6480
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 1,
+      "wall_ms": 3.966703,
+      "peak_kib": 6612
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 2,
+      "wall_ms": 3.421173,
+      "peak_kib": 6360
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 3,
+      "wall_ms": 3.71643,
+      "peak_kib": 6596
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 4,
+      "wall_ms": 3.571336,
+      "peak_kib": 6436
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 5,
+      "wall_ms": 3.429248,
+      "peak_kib": 6360
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 6,
+      "wall_ms": 3.830987,
+      "peak_kib": 6584
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 7,
+      "wall_ms": 3.603607,
+      "peak_kib": 6548
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 8,
+      "wall_ms": 3.771785,
+      "peak_kib": 6428
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 9,
+      "wall_ms": 3.851095,
+      "peak_kib": 6340
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 10,
+      "wall_ms": 4.11346,
+      "peak_kib": 6628
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 11,
+      "wall_ms": 4.122277,
+      "peak_kib": 6304
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 12,
+      "wall_ms": 3.802483,
+      "peak_kib": 6420
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 13,
+      "wall_ms": 3.921157,
+      "peak_kib": 6540
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 14,
+      "wall_ms": 3.81162,
+      "peak_kib": 6944
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "walk",
+      "rows": 0,
+      "sorted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/real-catalog",
+        "find",
+        "/tmp/i13/tree",
+        "-name",
+        "i13-no-such-basename-8f0329"
+      ]
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 0,
+      "wall_ms": 2.129332,
+      "peak_kib": 5448
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 1,
+      "wall_ms": 1.951887,
+      "peak_kib": 5456
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 2,
+      "wall_ms": 2.134993,
+      "peak_kib": 5412
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 3,
+      "wall_ms": 2.13919,
+      "peak_kib": 5616
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 4,
+      "wall_ms": 2.164188,
+      "peak_kib": 5100
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 5,
+      "wall_ms": 2.239921,
+      "peak_kib": 5420
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 6,
+      "wall_ms": 1.99601,
+      "peak_kib": 5624
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 7,
+      "wall_ms": 2.054681,
+      "peak_kib": 5668
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 8,
+      "wall_ms": 2.201628,
+      "peak_kib": 5692
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 9,
+      "wall_ms": 2.089427,
+      "peak_kib": 5644
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 10,
+      "wall_ms": 2.074409,
+      "peak_kib": 5144
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 11,
+      "wall_ms": 2.284766,
+      "peak_kib": 6004
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 12,
+      "wall_ms": 2.113953,
+      "peak_kib": 5956
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 13,
+      "wall_ms": 2.115647,
+      "peak_kib": 5456
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 14,
+      "wall_ms": 2.18128,
+      "peak_kib": 5632
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "postings",
+      "rows": 120,
+      "sorted_sha256": "665d16d7bc96a8a330c44a8793a0a4ef027ff18f18897062055a79ea59c92283",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/real-catalog",
+        "find",
+        "/tmp/i13/tree",
+        "-name",
+        "Cargo.toml"
+      ]
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 0,
+      "wall_ms": 1.511836,
+      "peak_kib": 5756
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 1,
+      "wall_ms": 1.364167,
+      "peak_kib": 6120
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 2,
+      "wall_ms": 1.94833,
+      "peak_kib": 5652
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 3,
+      "wall_ms": 1.432827,
+      "peak_kib": 5940
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 4,
+      "wall_ms": 1.3874,
+      "peak_kib": 5892
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 5,
+      "wall_ms": 1.54061,
+      "peak_kib": 5404
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 6,
+      "wall_ms": 1.526143,
+      "peak_kib": 5736
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 7,
+      "wall_ms": 1.564355,
+      "peak_kib": 5912
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 8,
+      "wall_ms": 1.473935,
+      "peak_kib": 5748
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 9,
+      "wall_ms": 1.671507,
+      "peak_kib": 5804
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 10,
+      "wall_ms": 1.376289,
+      "peak_kib": 5888
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 11,
+      "wall_ms": 1.374156,
+      "peak_kib": 6224
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 12,
+      "wall_ms": 1.376911,
+      "peak_kib": 6312
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 13,
+      "wall_ms": 1.403682,
+      "peak_kib": 6192
+    },
+    {
+      "corpus": "real",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 14,
+      "wall_ms": 1.361572,
+      "peak_kib": 5940
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "postings",
+      "rows": 18,
+      "sorted_sha256": "c1ab6cb8422be3fbf939dbf6c23be9f85df9aef8f8d534ab5a76e1cdccaa9dee",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/real-catalog",
+        "find",
+        "/tmp/i13/tree",
+        "-name",
+        "*checkpoint*.rs"
+      ]
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 0,
+      "wall_ms": 1.449538,
+      "peak_kib": 5512
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 1,
+      "wall_ms": 1.348387,
+      "peak_kib": 5628
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 2,
+      "wall_ms": 1.306147,
+      "peak_kib": 5836
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 3,
+      "wall_ms": 1.325794,
+      "peak_kib": 5664
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 4,
+      "wall_ms": 1.339521,
+      "peak_kib": 5848
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 5,
+      "wall_ms": 1.317288,
+      "peak_kib": 5804
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 6,
+      "wall_ms": 1.316607,
+      "peak_kib": 5916
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 7,
+      "wall_ms": 1.312098,
+      "peak_kib": 5848
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 8,
+      "wall_ms": 1.287372,
+      "peak_kib": 5736
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 9,
+      "wall_ms": 1.32334,
+      "peak_kib": 5852
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 10,
+      "wall_ms": 1.335132,
+      "peak_kib": 5716
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 11,
+      "wall_ms": 1.323099,
+      "peak_kib": 5708
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 12,
+      "wall_ms": 1.584773,
+      "peak_kib": 5892
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 13,
+      "wall_ms": 1.485947,
+      "peak_kib": 6012
+    },
+    {
+      "corpus": "real",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 14,
+      "wall_ms": 1.48248,
+      "peak_kib": 5460
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "postings",
+      "rows": 60,
+      "sorted_sha256": "b6320db34cc9a98ae4c57204ceebcca2576d2ec3c0b412e7e4e946bf966fb02a",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/real-catalog",
+        "find",
+        "/tmp/i13/tree",
+        "-regex",
+        ".*/read[^/]*[.]rs"
+      ]
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 0,
+      "wall_ms": 3.77476,
+      "peak_kib": 6608
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 1,
+      "wall_ms": 3.740506,
+      "peak_kib": 6336
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 2,
+      "wall_ms": 3.87505,
+      "peak_kib": 6188
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 3,
+      "wall_ms": 3.402057,
+      "peak_kib": 6796
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 4,
+      "wall_ms": 3.618054,
+      "peak_kib": 6336
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 5,
+      "wall_ms": 3.928731,
+      "peak_kib": 6720
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 6,
+      "wall_ms": 3.785491,
+      "peak_kib": 6592
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 7,
+      "wall_ms": 3.690341,
+      "peak_kib": 6328
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 8,
+      "wall_ms": 3.92286,
+      "peak_kib": 6692
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 9,
+      "wall_ms": 3.262753,
+      "peak_kib": 6420
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 10,
+      "wall_ms": 3.957225,
+      "peak_kib": 6360
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 11,
+      "wall_ms": 4.04989,
+      "peak_kib": 6680
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 12,
+      "wall_ms": 3.738231,
+      "peak_kib": 6532
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 13,
+      "wall_ms": 3.418708,
+      "peak_kib": 6628
+    },
+    {
+      "corpus": "real",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 14,
+      "wall_ms": 3.601683,
+      "peak_kib": 6392
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "postings",
+      "rows": 0,
+      "sorted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/real-catalog",
+        "find",
+        "/tmp/i13/tree",
+        "-name",
+        "i13-no-such-basename-8f0329"
+      ]
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 0,
+      "wall_ms": 1.337316,
+      "peak_kib": 5440
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 1,
+      "wall_ms": 1.312098,
+      "peak_kib": 5444
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 2,
+      "wall_ms": 1.261413,
+      "peak_kib": 5392
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 3,
+      "wall_ms": 1.259058,
+      "peak_kib": 5452
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 4,
+      "wall_ms": 1.349058,
+      "peak_kib": 5712
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 5,
+      "wall_ms": 1.465949,
+      "peak_kib": 5304
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 6,
+      "wall_ms": 1.324471,
+      "peak_kib": 5444
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 7,
+      "wall_ms": 1.246194,
+      "peak_kib": 5476
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 8,
+      "wall_ms": 1.336104,
+      "peak_kib": 5656
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 9,
+      "wall_ms": 1.318911,
+      "peak_kib": 5708
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 10,
+      "wall_ms": 1.380668,
+      "peak_kib": 5520
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 11,
+      "wall_ms": 1.27544,
+      "peak_kib": 5468
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 12,
+      "wall_ms": 1.242637,
+      "peak_kib": 5528
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 13,
+      "wall_ms": 1.479825,
+      "peak_kib": 5224
+    },
+    {
+      "corpus": "real",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 14,
+      "wall_ms": 1.321706,
+      "peak_kib": 5760
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "raw",
+      "rows": 26000,
+      "sorted_sha256": "7e63896e7ce6a34fa0d1e03012a2d4ef980385b019bb26c2b79fcd5eb1dffa82",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/release/ferret",
+        "--index",
+        "/tmp/i13/large-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "Cargo.toml"
+      ]
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 0,
+      "wall_ms": 171.852548,
+      "peak_kib": 153400
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 1,
+      "wall_ms": 169.317229,
+      "peak_kib": 153108
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 2,
+      "wall_ms": 165.232824,
+      "peak_kib": 152828
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 3,
+      "wall_ms": 165.252271,
+      "peak_kib": 152848
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 4,
+      "wall_ms": 162.805017,
+      "peak_kib": 153056
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 5,
+      "wall_ms": 162.33003,
+      "peak_kib": 153784
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 6,
+      "wall_ms": 166.021493,
+      "peak_kib": 152868
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "raw",
+      "rows": 26000,
+      "sorted_sha256": "11c76881e9a0ae1b672f76bda15ab3d48bc5bf15e0b4361cec0a7daa97eb945b",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/release/ferret",
+        "--index",
+        "/tmp/i13/large-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "*checkpoint*.rs"
+      ]
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 0,
+      "wall_ms": 207.467041,
+      "peak_kib": 153196
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 1,
+      "wall_ms": 210.934752,
+      "peak_kib": 153344
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 2,
+      "wall_ms": 208.691474,
+      "peak_kib": 153332
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 3,
+      "wall_ms": 203.80838,
+      "peak_kib": 153612
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 4,
+      "wall_ms": 204.449962,
+      "peak_kib": 153964
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 5,
+      "wall_ms": 207.464917,
+      "peak_kib": 152712
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 6,
+      "wall_ms": 207.189707,
+      "peak_kib": 153152
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "raw",
+      "rows": 52000,
+      "sorted_sha256": "6fee5269c4e3c07f633e2490eb9a5e0265c2ac161f74450082d82c314e30806b",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/release/ferret",
+        "--index",
+        "/tmp/i13/large-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-regex",
+        ".*/read[^/]*[.]rs"
+      ]
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 0,
+      "wall_ms": 657.929293,
+      "peak_kib": 154452
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 1,
+      "wall_ms": 640.216905,
+      "peak_kib": 154532
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 2,
+      "wall_ms": 646.273045,
+      "peak_kib": 153896
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 3,
+      "wall_ms": 692.939394,
+      "peak_kib": 154832
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 4,
+      "wall_ms": 685.813955,
+      "peak_kib": 154368
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 5,
+      "wall_ms": 649.720046,
+      "peak_kib": 154256
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 6,
+      "wall_ms": 714.718373,
+      "peak_kib": 154136
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "raw",
+      "rows": 0,
+      "sorted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/release/ferret",
+        "--index",
+        "/tmp/i13/large-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "i13-no-such-basename-8f0329"
+      ]
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 0,
+      "wall_ms": 170.124343,
+      "peak_kib": 152920
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 1,
+      "wall_ms": 171.636579,
+      "peak_kib": 152204
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 2,
+      "wall_ms": 168.037671,
+      "peak_kib": 152684
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 3,
+      "wall_ms": 164.059627,
+      "peak_kib": 152572
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 4,
+      "wall_ms": 168.970593,
+      "peak_kib": 153236
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 5,
+      "wall_ms": 165.745682,
+      "peak_kib": 152492
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 6,
+      "wall_ms": 170.786243,
+      "peak_kib": 152536
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "walk",
+      "rows": 26000,
+      "sorted_sha256": "7e63896e7ce6a34fa0d1e03012a2d4ef980385b019bb26c2b79fcd5eb1dffa82",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/large-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "Cargo.toml"
+      ]
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 0,
+      "wall_ms": 101.998137,
+      "peak_kib": 53288
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 1,
+      "wall_ms": 103.500645,
+      "peak_kib": 52804
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 2,
+      "wall_ms": 101.08338,
+      "peak_kib": 53456
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 3,
+      "wall_ms": 101.899911,
+      "peak_kib": 52864
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 4,
+      "wall_ms": 106.512915,
+      "peak_kib": 53368
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 5,
+      "wall_ms": 101.418373,
+      "peak_kib": 53164
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 6,
+      "wall_ms": 101.905953,
+      "peak_kib": 53264
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "walk",
+      "rows": 26000,
+      "sorted_sha256": "11c76881e9a0ae1b672f76bda15ab3d48bc5bf15e0b4361cec0a7daa97eb945b",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/large-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "*checkpoint*.rs"
+      ]
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 0,
+      "wall_ms": 139.834497,
+      "peak_kib": 53044
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 1,
+      "wall_ms": 140.752622,
+      "peak_kib": 52772
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 2,
+      "wall_ms": 139.610524,
+      "peak_kib": 53048
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 3,
+      "wall_ms": 139.925399,
+      "peak_kib": 52480
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 4,
+      "wall_ms": 141.543165,
+      "peak_kib": 52752
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 5,
+      "wall_ms": 140.437126,
+      "peak_kib": 52908
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 6,
+      "wall_ms": 140.602588,
+      "peak_kib": 53072
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "walk",
+      "rows": 52000,
+      "sorted_sha256": "6fee5269c4e3c07f633e2490eb9a5e0265c2ac161f74450082d82c314e30806b",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/large-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-regex",
+        ".*/read[^/]*[.]rs"
+      ]
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 0,
+      "wall_ms": 604.307404,
+      "peak_kib": 54404
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 1,
+      "wall_ms": 608.801002,
+      "peak_kib": 53416
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 2,
+      "wall_ms": 577.527448,
+      "peak_kib": 53500
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 3,
+      "wall_ms": 580.44014,
+      "peak_kib": 53252
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 4,
+      "wall_ms": 589.594291,
+      "peak_kib": 53888
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 5,
+      "wall_ms": 610.791541,
+      "peak_kib": 53432
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 6,
+      "wall_ms": 602.90287,
+      "peak_kib": 52868
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "walk",
+      "rows": 0,
+      "sorted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/large-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "i13-no-such-basename-8f0329"
+      ]
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 0,
+      "wall_ms": 104.921079,
+      "peak_kib": 51728
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 1,
+      "wall_ms": 100.968282,
+      "peak_kib": 51916
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 2,
+      "wall_ms": 101.33279,
+      "peak_kib": 51972
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 3,
+      "wall_ms": 103.335303,
+      "peak_kib": 52020
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 4,
+      "wall_ms": 101.166917,
+      "peak_kib": 52224
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 5,
+      "wall_ms": 101.845458,
+      "peak_kib": 52072
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 6,
+      "wall_ms": 103.246085,
+      "peak_kib": 52200
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "postings",
+      "rows": 26000,
+      "sorted_sha256": "7e63896e7ce6a34fa0d1e03012a2d4ef980385b019bb26c2b79fcd5eb1dffa82",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/large-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "Cargo.toml"
+      ]
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 0,
+      "wall_ms": 107.216133,
+      "peak_kib": 50984
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 1,
+      "wall_ms": 108.11922,
+      "peak_kib": 51564
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 2,
+      "wall_ms": 107.111095,
+      "peak_kib": 52204
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 3,
+      "wall_ms": 103.319483,
+      "peak_kib": 51900
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 4,
+      "wall_ms": 109.185583,
+      "peak_kib": 51492
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 5,
+      "wall_ms": 108.988411,
+      "peak_kib": 51368
+    },
+    {
+      "corpus": "large",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 6,
+      "wall_ms": 105.733412,
+      "peak_kib": 52268
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "postings",
+      "rows": 26000,
+      "sorted_sha256": "11c76881e9a0ae1b672f76bda15ab3d48bc5bf15e0b4361cec0a7daa97eb945b",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/large-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "*checkpoint*.rs"
+      ]
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 0,
+      "wall_ms": 108.820263,
+      "peak_kib": 51356
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 1,
+      "wall_ms": 109.501931,
+      "peak_kib": 51240
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 2,
+      "wall_ms": 107.121785,
+      "peak_kib": 52236
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 3,
+      "wall_ms": 111.442036,
+      "peak_kib": 51408
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 4,
+      "wall_ms": 104.292732,
+      "peak_kib": 51928
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 5,
+      "wall_ms": 104.157967,
+      "peak_kib": 52268
+    },
+    {
+      "corpus": "large",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 6,
+      "wall_ms": 107.189112,
+      "peak_kib": 51740
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "postings",
+      "rows": 52000,
+      "sorted_sha256": "6fee5269c4e3c07f633e2490eb9a5e0265c2ac161f74450082d82c314e30806b",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/large-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-regex",
+        ".*/read[^/]*[.]rs"
+      ]
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 0,
+      "wall_ms": 600.420711,
+      "peak_kib": 53652
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 1,
+      "wall_ms": 571.302709,
+      "peak_kib": 53996
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 2,
+      "wall_ms": 595.183508,
+      "peak_kib": 53720
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 3,
+      "wall_ms": 642.435683,
+      "peak_kib": 53508
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 4,
+      "wall_ms": 683.014244,
+      "peak_kib": 54000
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 5,
+      "wall_ms": 683.22949,
+      "peak_kib": 53208
+    },
+    {
+      "corpus": "large",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 6,
+      "wall_ms": 631.233894,
+      "peak_kib": 53740
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "postings",
+      "rows": 0,
+      "sorted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/large-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "i13-no-such-basename-8f0329"
+      ]
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 0,
+      "wall_ms": 89.336099,
+      "peak_kib": 47680
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 1,
+      "wall_ms": 92.130017,
+      "peak_kib": 46876
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 2,
+      "wall_ms": 90.140308,
+      "peak_kib": 47432
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 3,
+      "wall_ms": 89.43723,
+      "peak_kib": 46952
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 4,
+      "wall_ms": 90.094833,
+      "peak_kib": 46988
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 5,
+      "wall_ms": 89.545785,
+      "peak_kib": 47384
+    },
+    {
+      "corpus": "large",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 6,
+      "wall_ms": 91.643448,
+      "peak_kib": 47024
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "raw",
+      "rows": 26000,
+      "sorted_sha256": "7e63896e7ce6a34fa0d1e03012a2d4ef980385b019bb26c2b79fcd5eb1dffa82",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/release/ferret",
+        "--index",
+        "/tmp/i13/unique-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "Cargo.toml"
+      ]
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 0,
+      "wall_ms": 212.117586,
+      "peak_kib": 223852
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 1,
+      "wall_ms": 210.083673,
+      "peak_kib": 223820
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 2,
+      "wall_ms": 221.371926,
+      "peak_kib": 222724
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 3,
+      "wall_ms": 213.165265,
+      "peak_kib": 223948
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 4,
+      "wall_ms": 205.460601,
+      "peak_kib": 223656
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 5,
+      "wall_ms": 215.360962,
+      "peak_kib": 223532
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 6,
+      "wall_ms": 215.58198,
+      "peak_kib": 223680
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "raw",
+      "rows": 26000,
+      "sorted_sha256": "557d28c88d6344691c80812b99f73b93638fd22f04365b80cb59035edac4c14a",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/release/ferret",
+        "--index",
+        "/tmp/i13/unique-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "*checkpoint*.rs"
+      ]
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 0,
+      "wall_ms": 281.868687,
+      "peak_kib": 223292
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 1,
+      "wall_ms": 280.68419,
+      "peak_kib": 222972
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 2,
+      "wall_ms": 282.489159,
+      "peak_kib": 223296
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 3,
+      "wall_ms": 273.966651,
+      "peak_kib": 223512
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 4,
+      "wall_ms": 274.825443,
+      "peak_kib": 223208
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 5,
+      "wall_ms": 275.249074,
+      "peak_kib": 223848
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 6,
+      "wall_ms": 273.69626,
+      "peak_kib": 222764
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "raw",
+      "rows": 52000,
+      "sorted_sha256": "8f420f126f3d435f4093b2b238ea0bca1a03ff6b2715909da123bac05ebbe523",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/release/ferret",
+        "--index",
+        "/tmp/i13/unique-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-regex",
+        ".*/read[^/]*[.]rs"
+      ]
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 0,
+      "wall_ms": 721.284843,
+      "peak_kib": 224872
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 1,
+      "wall_ms": 665.265028,
+      "peak_kib": 224804
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 2,
+      "wall_ms": 669.641554,
+      "peak_kib": 225300
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 3,
+      "wall_ms": 736.895209,
+      "peak_kib": 224772
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 4,
+      "wall_ms": 688.059454,
+      "peak_kib": 224624
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 5,
+      "wall_ms": 779.590686,
+      "peak_kib": 224304
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 6,
+      "wall_ms": 684.498447,
+      "peak_kib": 225104
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "raw",
+      "rows": 0,
+      "sorted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/release/ferret",
+        "--index",
+        "/tmp/i13/unique-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "i13-no-such-basename-8f0329"
+      ]
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 0,
+      "wall_ms": 214.312641,
+      "peak_kib": 222804
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 1,
+      "wall_ms": 209.791191,
+      "peak_kib": 222700
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 2,
+      "wall_ms": 212.682031,
+      "peak_kib": 222120
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 3,
+      "wall_ms": 209.596743,
+      "peak_kib": 222008
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 4,
+      "wall_ms": 208.840375,
+      "peak_kib": 222444
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 5,
+      "wall_ms": 202.14606,
+      "peak_kib": 222016
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 6,
+      "wall_ms": 208.364245,
+      "peak_kib": 222504
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "walk",
+      "rows": 26000,
+      "sorted_sha256": "7e63896e7ce6a34fa0d1e03012a2d4ef980385b019bb26c2b79fcd5eb1dffa82",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/unique-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "Cargo.toml"
+      ]
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 0,
+      "wall_ms": 276.897176,
+      "peak_kib": 350208
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 1,
+      "wall_ms": 269.135486,
+      "peak_kib": 349408
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 2,
+      "wall_ms": 281.529186,
+      "peak_kib": 350608
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 3,
+      "wall_ms": 278.920619,
+      "peak_kib": 349888
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 4,
+      "wall_ms": 281.747638,
+      "peak_kib": 349732
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 5,
+      "wall_ms": 282.64335,
+      "peak_kib": 350184
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 6,
+      "wall_ms": 286.961086,
+      "peak_kib": 349976
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "walk",
+      "rows": 26000,
+      "sorted_sha256": "557d28c88d6344691c80812b99f73b93638fd22f04365b80cb59035edac4c14a",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/unique-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "*checkpoint*.rs"
+      ]
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 0,
+      "wall_ms": 341.335362,
+      "peak_kib": 350568
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 1,
+      "wall_ms": 335.914122,
+      "peak_kib": 349952
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 2,
+      "wall_ms": 332.70445,
+      "peak_kib": 349688
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 3,
+      "wall_ms": 341.104266,
+      "peak_kib": 349592
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 4,
+      "wall_ms": 333.107631,
+      "peak_kib": 350200
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 5,
+      "wall_ms": 335.5793,
+      "peak_kib": 350424
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 6,
+      "wall_ms": 338.926753,
+      "peak_kib": 350120
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "walk",
+      "rows": 52000,
+      "sorted_sha256": "8f420f126f3d435f4093b2b238ea0bca1a03ff6b2715909da123bac05ebbe523",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/unique-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-regex",
+        ".*/read[^/]*[.]rs"
+      ]
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 0,
+      "wall_ms": 844.701221,
+      "peak_kib": 351272
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 1,
+      "wall_ms": 848.797067,
+      "peak_kib": 351540
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 2,
+      "wall_ms": 769.815691,
+      "peak_kib": 351220
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 3,
+      "wall_ms": 778.163238,
+      "peak_kib": 351164
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 4,
+      "wall_ms": 788.918223,
+      "peak_kib": 351276
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 5,
+      "wall_ms": 769.488142,
+      "peak_kib": 351180
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 6,
+      "wall_ms": 851.866093,
+      "peak_kib": 351312
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "walk",
+      "rows": 0,
+      "sorted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/unique-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "i13-no-such-basename-8f0329"
+      ]
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 0,
+      "wall_ms": 280.334238,
+      "peak_kib": 349492
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 1,
+      "wall_ms": 288.881843,
+      "peak_kib": 348956
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 2,
+      "wall_ms": 290.528644,
+      "peak_kib": 348436
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 3,
+      "wall_ms": 292.921244,
+      "peak_kib": 349308
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 4,
+      "wall_ms": 287.128732,
+      "peak_kib": 349360
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 5,
+      "wall_ms": 287.372913,
+      "peak_kib": 349520
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 6,
+      "wall_ms": 284.651101,
+      "peak_kib": 348844
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "postings",
+      "rows": 26000,
+      "sorted_sha256": "7e63896e7ce6a34fa0d1e03012a2d4ef980385b019bb26c2b79fcd5eb1dffa82",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/unique-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "Cargo.toml"
+      ]
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 0,
+      "wall_ms": 409.243903,
+      "peak_kib": 387252
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 1,
+      "wall_ms": 405.934872,
+      "peak_kib": 387320
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 2,
+      "wall_ms": 403.418519,
+      "peak_kib": 387304
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 3,
+      "wall_ms": 399.804863,
+      "peak_kib": 388144
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 4,
+      "wall_ms": 398.003641,
+      "peak_kib": 387312
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 5,
+      "wall_ms": 403.231887,
+      "peak_kib": 387944
+    },
+    {
+      "corpus": "unique",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 6,
+      "wall_ms": 398.872151,
+      "peak_kib": 387328
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "postings",
+      "rows": 26000,
+      "sorted_sha256": "557d28c88d6344691c80812b99f73b93638fd22f04365b80cb59035edac4c14a",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/unique-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "*checkpoint*.rs"
+      ]
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 0,
+      "wall_ms": 725.839324,
+      "peak_kib": 387068
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 1,
+      "wall_ms": 714.712216,
+      "peak_kib": 387536
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 2,
+      "wall_ms": 724.643394,
+      "peak_kib": 387536
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 3,
+      "wall_ms": 707.55196,
+      "peak_kib": 387836
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 4,
+      "wall_ms": 717.015576,
+      "peak_kib": 387080
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 5,
+      "wall_ms": 720.285132,
+      "peak_kib": 386896
+    },
+    {
+      "corpus": "unique",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 6,
+      "wall_ms": 713.20615,
+      "peak_kib": 387412
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "postings",
+      "rows": 52000,
+      "sorted_sha256": "8f420f126f3d435f4093b2b238ea0bca1a03ff6b2715909da123bac05ebbe523",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/unique-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-regex",
+        ".*/read[^/]*[.]rs"
+      ]
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 0,
+      "wall_ms": 815.29867,
+      "peak_kib": 351652
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 1,
+      "wall_ms": 801.584225,
+      "peak_kib": 350964
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 2,
+      "wall_ms": 787.285266,
+      "peak_kib": 351864
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 3,
+      "wall_ms": 871.800686,
+      "peak_kib": 350828
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 4,
+      "wall_ms": 840.222999,
+      "peak_kib": 350908
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 5,
+      "wall_ms": 856.166745,
+      "peak_kib": 351808
+    },
+    {
+      "corpus": "unique",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 6,
+      "wall_ms": 865.497259,
+      "peak_kib": 350948
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "postings",
+      "rows": 0,
+      "sorted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/unique-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "i13-no-such-basename-8f0329"
+      ]
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 0,
+      "wall_ms": 373.877118,
+      "peak_kib": 384076
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 1,
+      "wall_ms": 370.015554,
+      "peak_kib": 383632
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 2,
+      "wall_ms": 376.261803,
+      "peak_kib": 382984
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 3,
+      "wall_ms": 373.507971,
+      "peak_kib": 383792
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 4,
+      "wall_ms": 372.171135,
+      "peak_kib": 383488
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 5,
+      "wall_ms": 377.143989,
+      "peak_kib": 383256
+    },
+    {
+      "corpus": "unique",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 6,
+      "wall_ms": 375.66267,
+      "peak_kib": 383872
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "raw",
+      "rows": 20187,
+      "sorted_sha256": "11a53e04eeae8dd9af573a1f836a791b36f3e8ab564853185ca0e133698aadad",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/release/ferret",
+        "--index",
+        "/tmp/i13/nix-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "Cargo.toml"
+      ]
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 0,
+      "wall_ms": 568.278678,
+      "peak_kib": 307624
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 1,
+      "wall_ms": 573.683398,
+      "peak_kib": 305844
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 2,
+      "wall_ms": 586.269802,
+      "peak_kib": 307800
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 3,
+      "wall_ms": 592.716508,
+      "peak_kib": 306884
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 4,
+      "wall_ms": 572.609359,
+      "peak_kib": 305096
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 5,
+      "wall_ms": 559.203848,
+      "peak_kib": 308276
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "raw",
+      "repeat": 6,
+      "wall_ms": 561.436745,
+      "peak_kib": 307908
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "raw",
+      "rows": 0,
+      "sorted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/release/ferret",
+        "--index",
+        "/tmp/i13/nix-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "*checkpoint*.rs"
+      ]
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 0,
+      "wall_ms": 644.113171,
+      "peak_kib": 307728
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 1,
+      "wall_ms": 644.37233,
+      "peak_kib": 305580
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 2,
+      "wall_ms": 618.996909,
+      "peak_kib": 307212
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 3,
+      "wall_ms": 628.447119,
+      "peak_kib": 306016
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 4,
+      "wall_ms": 646.217485,
+      "peak_kib": 305772
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 5,
+      "wall_ms": 615.307379,
+      "peak_kib": 305348
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "raw",
+      "repeat": 6,
+      "wall_ms": 640.183457,
+      "peak_kib": 304716
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "raw",
+      "rows": 1707,
+      "sorted_sha256": "3dd44e6e92ca8e139b10e223941d5dd801b56fe0ae84069f6bbe1b1a50525beb",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/release/ferret",
+        "--index",
+        "/tmp/i13/nix-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-regex",
+        ".*/read[^/]*[.]rs"
+      ]
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 0,
+      "wall_ms": 1303.374061,
+      "peak_kib": 339488
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 1,
+      "wall_ms": 1319.559684,
+      "peak_kib": 332912
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 2,
+      "wall_ms": 1349.371054,
+      "peak_kib": 338260
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 3,
+      "wall_ms": 1272.748303,
+      "peak_kib": 338972
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 4,
+      "wall_ms": 1327.91239,
+      "peak_kib": 347136
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 5,
+      "wall_ms": 1339.739119,
+      "peak_kib": 334588
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "raw",
+      "repeat": 6,
+      "wall_ms": 1311.275295,
+      "peak_kib": 340344
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "raw",
+      "rows": 0,
+      "sorted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/release/ferret",
+        "--index",
+        "/tmp/i13/nix-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "i13-no-such-basename-8f0329"
+      ]
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 0,
+      "wall_ms": 742.452269,
+      "peak_kib": 307664
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 1,
+      "wall_ms": 752.144666,
+      "peak_kib": 307740
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 2,
+      "wall_ms": 820.807522,
+      "peak_kib": 307248
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 3,
+      "wall_ms": 771.504074,
+      "peak_kib": 304376
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 4,
+      "wall_ms": 726.155296,
+      "peak_kib": 305808
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 5,
+      "wall_ms": 787.169003,
+      "peak_kib": 306792
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "raw",
+      "repeat": 6,
+      "wall_ms": 772.838464,
+      "peak_kib": 305008
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "walk",
+      "rows": 20187,
+      "sorted_sha256": "11a53e04eeae8dd9af573a1f836a791b36f3e8ab564853185ca0e133698aadad",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/nix-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "Cargo.toml"
+      ]
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 0,
+      "wall_ms": 644.910535,
+      "peak_kib": 159536
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 1,
+      "wall_ms": 640.189657,
+      "peak_kib": 158784
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 2,
+      "wall_ms": 652.588407,
+      "peak_kib": 159884
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 3,
+      "wall_ms": 705.001759,
+      "peak_kib": 159088
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 4,
+      "wall_ms": 684.102733,
+      "peak_kib": 157916
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 5,
+      "wall_ms": 683.514361,
+      "peak_kib": 158460
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "walk",
+      "repeat": 6,
+      "wall_ms": 687.392497,
+      "peak_kib": 160800
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "walk",
+      "rows": 0,
+      "sorted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/nix-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "*checkpoint*.rs"
+      ]
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 0,
+      "wall_ms": 700.473996,
+      "peak_kib": 155556
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 1,
+      "wall_ms": 725.540403,
+      "peak_kib": 158440
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 2,
+      "wall_ms": 756.278463,
+      "peak_kib": 158880
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 3,
+      "wall_ms": 685.434078,
+      "peak_kib": 158028
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 4,
+      "wall_ms": 784.651016,
+      "peak_kib": 159360
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 5,
+      "wall_ms": 770.35911,
+      "peak_kib": 159336
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "walk",
+      "repeat": 6,
+      "wall_ms": 755.803416,
+      "peak_kib": 156428
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "walk",
+      "rows": 1707,
+      "sorted_sha256": "3dd44e6e92ca8e139b10e223941d5dd801b56fe0ae84069f6bbe1b1a50525beb",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/nix-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-regex",
+        ".*/read[^/]*[.]rs"
+      ]
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 0,
+      "wall_ms": 1325.86021,
+      "peak_kib": 190204
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 1,
+      "wall_ms": 1379.282317,
+      "peak_kib": 186184
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 2,
+      "wall_ms": 1307.898752,
+      "peak_kib": 193332
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 3,
+      "wall_ms": 1246.609184,
+      "peak_kib": 186956
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 4,
+      "wall_ms": 1267.083498,
+      "peak_kib": 196672
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 5,
+      "wall_ms": 1262.079395,
+      "peak_kib": 194852
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "walk",
+      "repeat": 6,
+      "wall_ms": 1261.958597,
+      "peak_kib": 185984
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "walk",
+      "rows": 0,
+      "sorted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/nix-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "i13-no-such-basename-8f0329"
+      ]
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 0,
+      "wall_ms": 500.628662,
+      "peak_kib": 158748
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 1,
+      "wall_ms": 459.175763,
+      "peak_kib": 158172
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 2,
+      "wall_ms": 498.78516,
+      "peak_kib": 156108
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 3,
+      "wall_ms": 463.385214,
+      "peak_kib": 157620
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 4,
+      "wall_ms": 471.123131,
+      "peak_kib": 157256
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 5,
+      "wall_ms": 501.209891,
+      "peak_kib": 156340
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "walk",
+      "repeat": 6,
+      "wall_ms": 502.309357,
+      "peak_kib": 160236
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "postings",
+      "rows": 20187,
+      "sorted_sha256": "11a53e04eeae8dd9af573a1f836a791b36f3e8ab564853185ca0e133698aadad",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/nix-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "Cargo.toml"
+      ]
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 0,
+      "wall_ms": 430.248554,
+      "peak_kib": 162104
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 1,
+      "wall_ms": 436.099455,
+      "peak_kib": 161572
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 2,
+      "wall_ms": 437.721449,
+      "peak_kib": 162080
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 3,
+      "wall_ms": 442.326076,
+      "peak_kib": 161020
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 4,
+      "wall_ms": 448.547507,
+      "peak_kib": 160888
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 5,
+      "wall_ms": 435.499512,
+      "peak_kib": 161508
+    },
+    {
+      "corpus": "nix",
+      "query": "literal",
+      "mode": "postings",
+      "repeat": 6,
+      "wall_ms": 436.271239,
+      "peak_kib": 161276
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "postings",
+      "rows": 0,
+      "sorted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/nix-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "*checkpoint*.rs"
+      ]
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 0,
+      "wall_ms": 452.11177,
+      "peak_kib": 157648
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 1,
+      "wall_ms": 439.615306,
+      "peak_kib": 157944
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 2,
+      "wall_ms": 437.413978,
+      "peak_kib": 158596
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 3,
+      "wall_ms": 437.136985,
+      "peak_kib": 158244
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 4,
+      "wall_ms": 440.875566,
+      "peak_kib": 158204
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 5,
+      "wall_ms": 436.123841,
+      "peak_kib": 158464
+    },
+    {
+      "corpus": "nix",
+      "query": "glob",
+      "mode": "postings",
+      "repeat": 6,
+      "wall_ms": 434.878147,
+      "peak_kib": 158020
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "postings",
+      "rows": 1707,
+      "sorted_sha256": "3dd44e6e92ca8e139b10e223941d5dd801b56fe0ae84069f6bbe1b1a50525beb",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/nix-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-regex",
+        ".*/read[^/]*[.]rs"
+      ]
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 0,
+      "wall_ms": 1275.024905,
+      "peak_kib": 190012
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 1,
+      "wall_ms": 1261.736565,
+      "peak_kib": 193860
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 2,
+      "wall_ms": 1280.586309,
+      "peak_kib": 189704
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 3,
+      "wall_ms": 1270.114619,
+      "peak_kib": 197440
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 4,
+      "wall_ms": 1291.992814,
+      "peak_kib": 189692
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 5,
+      "wall_ms": 1263.442637,
+      "peak_kib": 184672
+    },
+    {
+      "corpus": "nix",
+      "query": "regex",
+      "mode": "postings",
+      "repeat": 6,
+      "wall_ms": 1308.106921,
+      "peak_kib": 191540
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "postings",
+      "rows": 0,
+      "sorted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "command": [
+        "~/w/super-ferret/wt/i13/target/i13-build/release/ferret",
+        "--index",
+        "/tmp/i13/nix-catalog",
+        "find",
+        "/tmp/i13/synthetic-tree",
+        "-name",
+        "i13-no-such-basename-8f0329"
+      ]
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 0,
+      "wall_ms": 416.089448,
+      "peak_kib": 158048
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 1,
+      "wall_ms": 410.308748,
+      "peak_kib": 158824
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 2,
+      "wall_ms": 417.007472,
+      "peak_kib": 158568
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 3,
+      "wall_ms": 413.319285,
+      "peak_kib": 157992
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 4,
+      "wall_ms": 407.260641,
+      "peak_kib": 158736
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 5,
+      "wall_ms": 408.489472,
+      "peak_kib": 158192
+    },
+    {
+      "corpus": "nix",
+      "query": "absent",
+      "mode": "postings",
+      "repeat": 6,
+      "wall_ms": 414.23269,
+      "peak_kib": 158496
+    }
+  ],
+  "opens": [
+    {
+      "corpus": "real",
+      "mode": "raw",
+      "repeat": 0,
+      "load_ms": 0.484125,
+      "projection_ms": 0.6420020000000001,
+      "full_ms": 1.1261269999999999,
+      "rows": 7486,
+      "distinct": 496,
+      "wall_ms": 2.088605,
+      "peak_kib": 3280
+    },
+    {
+      "corpus": "real",
+      "mode": "raw",
+      "repeat": 1,
+      "load_ms": 0.44641400000000003,
+      "projection_ms": 0.642283,
+      "full_ms": 1.088697,
+      "rows": 7486,
+      "distinct": 496,
+      "wall_ms": 2.117489,
+      "peak_kib": 3336
+    },
+    {
+      "corpus": "real",
+      "mode": "raw",
+      "repeat": 2,
+      "load_ms": 0.477211,
+      "projection_ms": 0.6995509999999999,
+      "full_ms": 1.176762,
+      "rows": 7486,
+      "distinct": 496,
+      "wall_ms": 2.104444,
+      "peak_kib": 3284
+    },
+    {
+      "corpus": "real",
+      "mode": "raw",
+      "repeat": 3,
+      "load_ms": 0.445852,
+      "projection_ms": 0.65131,
+      "full_ms": 1.097162,
+      "rows": 7486,
+      "distinct": 496,
+      "wall_ms": 2.177653,
+      "peak_kib": 3408
+    },
+    {
+      "corpus": "real",
+      "mode": "raw",
+      "repeat": 4,
+      "load_ms": 0.418421,
+      "projection_ms": 0.610042,
+      "full_ms": 1.0284630000000001,
+      "rows": 7486,
+      "distinct": 496,
+      "wall_ms": 1.828865,
+      "peak_kib": 3280
+    },
+    {
+      "corpus": "real",
+      "mode": "raw",
+      "repeat": 5,
+      "load_ms": 0.453026,
+      "projection_ms": 0.7293580000000001,
+      "full_ms": 1.182384,
+      "rows": 7486,
+      "distinct": 496,
+      "wall_ms": 2.179146,
+      "peak_kib": 3048
+    },
+    {
+      "corpus": "real",
+      "mode": "raw",
+      "repeat": 6,
+      "load_ms": 0.41984299999999997,
+      "projection_ms": 0.642764,
+      "full_ms": 1.0626069999999999,
+      "rows": 7486,
+      "distinct": 496,
+      "wall_ms": 1.778419,
+      "peak_kib": 3408
+    },
+    {
+      "corpus": "real",
+      "mode": "raw",
+      "repeat": 7,
+      "load_ms": 0.410956,
+      "projection_ms": 0.6304109999999999,
+      "full_ms": 1.0413670000000002,
+      "rows": 7486,
+      "distinct": 496,
+      "wall_ms": 1.719188,
+      "peak_kib": 3280
+    },
+    {
+      "corpus": "real",
+      "mode": "section",
+      "repeat": 0,
+      "load_ms": 0.37939700000000004,
+      "projection_ms": 0.000701,
+      "full_ms": 0.380098,
+      "rows": 7486,
+      "distinct": 496,
+      "wall_ms": 1.278946,
+      "peak_kib": 2808
+    },
+    {
+      "corpus": "real",
+      "mode": "section",
+      "repeat": 1,
+      "load_ms": 0.35476,
+      "projection_ms": 0.000641,
+      "full_ms": 0.35540099999999997,
+      "rows": 7486,
+      "distinct": 496,
+      "wall_ms": 1.671958,
+      "peak_kib": 3040
+    },
+    {
+      "corpus": "real",
+      "mode": "section",
+      "repeat": 2,
+      "load_ms": 0.336976,
+      "projection_ms": 0.000531,
+      "full_ms": 0.337507,
+      "rows": 7486,
+      "distinct": 496,
+      "wall_ms": 1.312048,
+      "peak_kib": 2896
+    },
+    {
+      "corpus": "real",
+      "mode": "section",
+      "repeat": 3,
+      "load_ms": 0.353648,
+      "projection_ms": 0.000591,
+      "full_ms": 0.354239,
+      "rows": 7486,
+      "distinct": 496,
+      "wall_ms": 0.989038,
+      "peak_kib": 2956
+    },
+    {
+      "corpus": "real",
+      "mode": "section",
+      "repeat": 4,
+      "load_ms": 0.331887,
+      "projection_ms": 0.000541,
+      "full_ms": 0.332428,
+      "rows": 7486,
+      "distinct": 496,
+      "wall_ms": 1.02699,
+      "peak_kib": 2960
+    },
+    {
+      "corpus": "real",
+      "mode": "section",
+      "repeat": 5,
+      "load_ms": 0.371141,
+      "projection_ms": 0.0008309999999999999,
+      "full_ms": 0.37197199999999997,
+      "rows": 7486,
+      "distinct": 496,
+      "wall_ms": 1.014216,
+      "peak_kib": 3072
+    },
+    {
+      "corpus": "real",
+      "mode": "section",
+      "repeat": 6,
+      "load_ms": 0.349881,
+      "projection_ms": 0.000581,
+      "full_ms": 0.350462,
+      "rows": 7486,
+      "distinct": 496,
+      "wall_ms": 1.130385,
+      "peak_kib": 3008
+    },
+    {
+      "corpus": "real",
+      "mode": "section",
+      "repeat": 7,
+      "load_ms": 0.33749700000000005,
+      "projection_ms": 0.000561,
+      "full_ms": 0.338058,
+      "rows": 7486,
+      "distinct": 496,
+      "wall_ms": 0.972968,
+      "peak_kib": 3028
+    },
+    {
+      "corpus": "large",
+      "mode": "raw",
+      "repeat": 0,
+      "load_ms": 118.52902499999999,
+      "projection_ms": 199.599667,
+      "full_ms": 318.128692,
+      "rows": 10166000,
+      "distinct": 26390,
+      "wall_ms": 324.865677,
+      "peak_kib": 300344
+    },
+    {
+      "corpus": "large",
+      "mode": "raw",
+      "repeat": 1,
+      "load_ms": 117.930965,
+      "projection_ms": 201.825321,
+      "full_ms": 319.756286,
+      "rows": 10166000,
+      "distinct": 26390,
+      "wall_ms": 327.215175,
+      "peak_kib": 301068
+    },
+    {
+      "corpus": "large",
+      "mode": "raw",
+      "repeat": 2,
+      "load_ms": 116.38623700000001,
+      "projection_ms": 197.37017600000001,
+      "full_ms": 313.756413,
+      "rows": 10166000,
+      "distinct": 26390,
+      "wall_ms": 320.713644,
+      "peak_kib": 301988
+    },
+    {
+      "corpus": "large",
+      "mode": "raw",
+      "repeat": 3,
+      "load_ms": 118.704447,
+      "projection_ms": 198.13313599999998,
+      "full_ms": 316.837583,
+      "rows": 10166000,
+      "distinct": 26390,
+      "wall_ms": 323.943886,
+      "peak_kib": 304284
+    },
+    {
+      "corpus": "large",
+      "mode": "raw",
+      "repeat": 4,
+      "load_ms": 117.93103500000001,
+      "projection_ms": 197.515099,
+      "full_ms": 315.446134,
+      "rows": 10166000,
+      "distinct": 26390,
+      "wall_ms": 322.854017,
+      "peak_kib": 301784
+    },
+    {
+      "corpus": "large",
+      "mode": "raw",
+      "repeat": 5,
+      "load_ms": 115.335003,
+      "projection_ms": 202.92625999999998,
+      "full_ms": 318.26126300000004,
+      "rows": 10166000,
+      "distinct": 26390,
+      "wall_ms": 324.990703,
+      "peak_kib": 302200
+    },
+    {
+      "corpus": "large",
+      "mode": "raw",
+      "repeat": 6,
+      "load_ms": 113.321369,
+      "projection_ms": 193.145174,
+      "full_ms": 306.466543,
+      "rows": 10166000,
+      "distinct": 26390,
+      "wall_ms": 313.336069,
+      "peak_kib": 300284
+    },
+    {
+      "corpus": "large",
+      "mode": "raw",
+      "repeat": 7,
+      "load_ms": 114.046448,
+      "projection_ms": 197.14201400000002,
+      "full_ms": 311.188462,
+      "rows": 10166000,
+      "distinct": 26390,
+      "wall_ms": 316.888419,
+      "peak_kib": 300496
+    },
+    {
+      "corpus": "large",
+      "mode": "section",
+      "repeat": 0,
+      "load_ms": 58.859157,
+      "projection_ms": 0.204416,
+      "full_ms": 59.063573,
+      "rows": 10166000,
+      "distinct": 26390,
+      "wall_ms": 63.481307,
+      "peak_kib": 67472
+    },
+    {
+      "corpus": "large",
+      "mode": "section",
+      "repeat": 1,
+      "load_ms": 59.403826,
+      "projection_ms": 0.25161500000000003,
+      "full_ms": 59.655440999999996,
+      "rows": 10166000,
+      "distinct": 26390,
+      "wall_ms": 64.399892,
+      "peak_kib": 66960
+    },
+    {
+      "corpus": "large",
+      "mode": "section",
+      "repeat": 2,
+      "load_ms": 58.021915,
+      "projection_ms": 0.176413,
+      "full_ms": 58.198328000000004,
+      "rows": 10166000,
+      "distinct": 26390,
+      "wall_ms": 62.668983,
+      "peak_kib": 67020
+    },
+    {
+      "corpus": "large",
+      "mode": "section",
+      "repeat": 3,
+      "load_ms": 58.116594,
+      "projection_ms": 0.22232,
+      "full_ms": 58.338913999999995,
+      "rows": 10166000,
+      "distinct": 26390,
+      "wall_ms": 63.038391,
+      "peak_kib": 67148
+    },
+    {
+      "corpus": "large",
+      "mode": "section",
+      "repeat": 4,
+      "load_ms": 57.430408,
+      "projection_ms": 0.207772,
+      "full_ms": 57.63818,
+      "rows": 10166000,
+      "distinct": 26390,
+      "wall_ms": 62.134394,
+      "peak_kib": 67476
+    },
+    {
+      "corpus": "large",
+      "mode": "section",
+      "repeat": 5,
+      "load_ms": 56.879077,
+      "projection_ms": 0.159772,
+      "full_ms": 57.038849,
+      "rows": 10166000,
+      "distinct": 26390,
+      "wall_ms": 61.351445,
+      "peak_kib": 67536
+    },
+    {
+      "corpus": "large",
+      "mode": "section",
+      "repeat": 6,
+      "load_ms": 58.625234999999996,
+      "projection_ms": 0.24794900000000003,
+      "full_ms": 58.873184,
+      "rows": 10166000,
+      "distinct": 26390,
+      "wall_ms": 63.163147,
+      "peak_kib": 67216
+    },
+    {
+      "corpus": "large",
+      "mode": "section",
+      "repeat": 7,
+      "load_ms": 57.069296,
+      "projection_ms": 0.22253,
+      "full_ms": 57.291826,
+      "rows": 10166000,
+      "distinct": 26390,
+      "wall_ms": 63.480035,
+      "peak_kib": 67600
+    },
+    {
+      "corpus": "unique",
+      "mode": "raw",
+      "repeat": 0,
+      "load_ms": 154.832337,
+      "projection_ms": 1418.822001,
+      "full_ms": 1573.6543379999998,
+      "rows": 10166000,
+      "distinct": 10140001,
+      "wall_ms": 1595.846836,
+      "peak_kib": 1221440
+    },
+    {
+      "corpus": "unique",
+      "mode": "raw",
+      "repeat": 1,
+      "load_ms": 150.822754,
+      "projection_ms": 1419.891169,
+      "full_ms": 1570.713923,
+      "rows": 10166000,
+      "distinct": 10140001,
+      "wall_ms": 1593.415323,
+      "peak_kib": 1226400
+    },
+    {
+      "corpus": "unique",
+      "mode": "raw",
+      "repeat": 2,
+      "load_ms": 152.312488,
+      "projection_ms": 1439.101074,
+      "full_ms": 1591.413562,
+      "rows": 10166000,
+      "distinct": 10140001,
+      "wall_ms": 1614.694957,
+      "peak_kib": 1223944
+    },
+    {
+      "corpus": "unique",
+      "mode": "raw",
+      "repeat": 3,
+      "load_ms": 149.711785,
+      "projection_ms": 1423.877219,
+      "full_ms": 1573.589004,
+      "rows": 10166000,
+      "distinct": 10140001,
+      "wall_ms": 1594.792864,
+      "peak_kib": 1173436
+    },
+    {
+      "corpus": "unique",
+      "mode": "raw",
+      "repeat": 4,
+      "load_ms": 155.981016,
+      "projection_ms": 1427.730096,
+      "full_ms": 1583.711112,
+      "rows": 10166000,
+      "distinct": 10140001,
+      "wall_ms": 1605.246239,
+      "peak_kib": 1173424
+    },
+    {
+      "corpus": "unique",
+      "mode": "raw",
+      "repeat": 5,
+      "load_ms": 148.822135,
+      "projection_ms": 1465.0714380000002,
+      "full_ms": 1613.8935729999998,
+      "rows": 10166000,
+      "distinct": 10140001,
+      "wall_ms": 1636.638395,
+      "peak_kib": 1174716
+    },
+    {
+      "corpus": "unique",
+      "mode": "raw",
+      "repeat": 6,
+      "load_ms": 152.274355,
+      "projection_ms": 1436.817059,
+      "full_ms": 1589.0914139999998,
+      "rows": 10166000,
+      "distinct": 10140001,
+      "wall_ms": 1612.226784,
+      "peak_kib": 1225404
+    },
+    {
+      "corpus": "unique",
+      "mode": "raw",
+      "repeat": 7,
+      "load_ms": 150.489584,
+      "projection_ms": 1489.874798,
+      "full_ms": 1640.364382,
+      "rows": 10166000,
+      "distinct": 10140001,
+      "wall_ms": 1670.401217,
+      "peak_kib": 1219260
+    },
+    {
+      "corpus": "unique",
+      "mode": "section",
+      "repeat": 0,
+      "load_ms": 216.827047,
+      "projection_ms": 0.225315,
+      "full_ms": 217.052362,
+      "rows": 10166000,
+      "distinct": 10140001,
+      "wall_ms": 239.030786,
+      "peak_kib": 364176
+    },
+    {
+      "corpus": "unique",
+      "mode": "section",
+      "repeat": 1,
+      "load_ms": 218.965355,
+      "projection_ms": 0.273777,
+      "full_ms": 219.239132,
+      "rows": 10166000,
+      "distinct": 10140001,
+      "wall_ms": 245.604283,
+      "peak_kib": 363856
+    },
+    {
+      "corpus": "unique",
+      "mode": "section",
+      "repeat": 2,
+      "load_ms": 217.454001,
+      "projection_ms": 0.450831,
+      "full_ms": 217.904832,
+      "rows": 10166000,
+      "distinct": 10140001,
+      "wall_ms": 241.254586,
+      "peak_kib": 364224
+    },
+    {
+      "corpus": "unique",
+      "mode": "section",
+      "repeat": 3,
+      "load_ms": 214.169997,
+      "projection_ms": 0.19509900000000002,
+      "full_ms": 214.365096,
+      "rows": 10166000,
+      "distinct": 10140001,
+      "wall_ms": 241.090586,
+      "peak_kib": 363768
+    },
+    {
+      "corpus": "unique",
+      "mode": "section",
+      "repeat": 4,
+      "load_ms": 212.284156,
+      "projection_ms": 0.274829,
+      "full_ms": 212.558985,
+      "rows": 10166000,
+      "distinct": 10140001,
+      "wall_ms": 234.655882,
+      "peak_kib": 363736
+    },
+    {
+      "corpus": "unique",
+      "mode": "section",
+      "repeat": 5,
+      "load_ms": 211.72511899999998,
+      "projection_ms": 0.21463600000000002,
+      "full_ms": 211.93975500000002,
+      "rows": 10166000,
+      "distinct": 10140001,
+      "wall_ms": 234.69663,
+      "peak_kib": 363992
+    },
+    {
+      "corpus": "unique",
+      "mode": "section",
+      "repeat": 6,
+      "load_ms": 211.60889,
+      "projection_ms": 0.24480200000000002,
+      "full_ms": 211.85369200000002,
+      "rows": 10166000,
+      "distinct": 10140001,
+      "wall_ms": 233.541197,
+      "peak_kib": 363664
+    },
+    {
+      "corpus": "unique",
+      "mode": "section",
+      "repeat": 7,
+      "load_ms": 213.53729199999998,
+      "projection_ms": 0.16414,
+      "full_ms": 213.70143199999998,
+      "rows": 10166000,
+      "distinct": 10140001,
+      "wall_ms": 236.127011,
+      "peak_kib": 363412
+    },
+    {
+      "corpus": "nix",
+      "mode": "raw",
+      "repeat": 0,
+      "load_ms": 252.66170300000002,
+      "projection_ms": 302.227456,
+      "full_ms": 554.8891590000001,
+      "rows": 12625560,
+      "distinct": 356921,
+      "wall_ms": 589.308713,
+      "peak_kib": 705196
+    },
+    {
+      "corpus": "nix",
+      "mode": "raw",
+      "repeat": 1,
+      "load_ms": 253.479638,
+      "projection_ms": 310.342033,
+      "full_ms": 563.821671,
+      "rows": 12625560,
+      "distinct": 356921,
+      "wall_ms": 596.602529,
+      "peak_kib": 706568
+    },
+    {
+      "corpus": "nix",
+      "mode": "raw",
+      "repeat": 2,
+      "load_ms": 258.31304700000004,
+      "projection_ms": 312.801459,
+      "full_ms": 571.114506,
+      "rows": 12625560,
+      "distinct": 356921,
+      "wall_ms": 601.324669,
+      "peak_kib": 697568
+    },
+    {
+      "corpus": "nix",
+      "mode": "raw",
+      "repeat": 3,
+      "load_ms": 251.956882,
+      "projection_ms": 305.828437,
+      "full_ms": 557.785319,
+      "rows": 12625560,
+      "distinct": 356921,
+      "wall_ms": 593.151902,
+      "peak_kib": 716548
+    },
+    {
+      "corpus": "nix",
+      "mode": "raw",
+      "repeat": 4,
+      "load_ms": 254.13549600000002,
+      "projection_ms": 320.507294,
+      "full_ms": 574.64279,
+      "rows": 12625560,
+      "distinct": 356921,
+      "wall_ms": 607.523027,
+      "peak_kib": 702756
+    },
+    {
+      "corpus": "nix",
+      "mode": "raw",
+      "repeat": 5,
+      "load_ms": 251.24081900000002,
+      "projection_ms": 306.085153,
+      "full_ms": 557.325972,
+      "rows": 12625560,
+      "distinct": 356921,
+      "wall_ms": 589.54614,
+      "peak_kib": 697840
+    },
+    {
+      "corpus": "nix",
+      "mode": "raw",
+      "repeat": 6,
+      "load_ms": 253.614012,
+      "projection_ms": 308.740117,
+      "full_ms": 562.3541290000001,
+      "rows": 12625560,
+      "distinct": 356921,
+      "wall_ms": 595.425967,
+      "peak_kib": 706588
+    },
+    {
+      "corpus": "nix",
+      "mode": "raw",
+      "repeat": 7,
+      "load_ms": 254.23408199999997,
+      "projection_ms": 307.204477,
+      "full_ms": 561.4385589999999,
+      "rows": 12625560,
+      "distinct": 356921,
+      "wall_ms": 593.284261,
+      "peak_kib": 705320
+    },
+    {
+      "corpus": "nix",
+      "mode": "section",
+      "repeat": 0,
+      "load_ms": 208.616768,
+      "projection_ms": 0.26517100000000005,
+      "full_ms": 208.881939,
+      "rows": 12625560,
+      "distinct": 356921,
+      "wall_ms": 234.673465,
+      "peak_kib": 348496
+    },
+    {
+      "corpus": "nix",
+      "mode": "section",
+      "repeat": 1,
+      "load_ms": 211.33259800000002,
+      "projection_ms": 0.127581,
+      "full_ms": 211.460179,
+      "rows": 12625560,
+      "distinct": 356921,
+      "wall_ms": 232.37832,
+      "peak_kib": 347608
+    },
+    {
+      "corpus": "nix",
+      "mode": "section",
+      "repeat": 2,
+      "load_ms": 207.979454,
+      "projection_ms": 0.340764,
+      "full_ms": 208.320218,
+      "rows": 12625560,
+      "distinct": 356921,
+      "wall_ms": 229.691295,
+      "peak_kib": 349136
+    },
+    {
+      "corpus": "nix",
+      "mode": "section",
+      "repeat": 3,
+      "load_ms": 207.61757,
+      "projection_ms": 0.29501799999999995,
+      "full_ms": 207.912588,
+      "rows": 12625560,
+      "distinct": 356921,
+      "wall_ms": 230.90132,
+      "peak_kib": 349456
+    },
+    {
+      "corpus": "nix",
+      "mode": "section",
+      "repeat": 4,
+      "load_ms": 208.388456,
+      "projection_ms": 0.21660000000000001,
+      "full_ms": 208.60505600000002,
+      "rows": 12625560,
+      "distinct": 356921,
+      "wall_ms": 229.348688,
+      "peak_kib": 348336
+    },
+    {
+      "corpus": "nix",
+      "mode": "section",
+      "repeat": 5,
+      "load_ms": 204.332105,
+      "projection_ms": 0.23308,
+      "full_ms": 204.565185,
+      "rows": 12625560,
+      "distinct": 356921,
+      "wall_ms": 224.660382,
+      "peak_kib": 348816
+    },
+    {
+      "corpus": "nix",
+      "mode": "section",
+      "repeat": 6,
+      "load_ms": 204.423848,
+      "projection_ms": 0.34675500000000004,
+      "full_ms": 204.770603,
+      "rows": 12625560,
+      "distinct": 356921,
+      "wall_ms": 225.015843,
+      "peak_kib": 349008
+    },
+    {
+      "corpus": "nix",
+      "mode": "section",
+      "repeat": 7,
+      "load_ms": 212.21554600000002,
+      "projection_ms": 0.167546,
+      "full_ms": 212.383092,
+      "rows": 12625560,
+      "distinct": 356921,
+      "wall_ms": 238.242868,
+      "peak_kib": 348332
+    }
+  ],
+  "daemons": [
+    {
+      "corpus": "real",
+      "mode": "raw",
+      "repeat": 0,
+      "ready_ms": 12.200004
+    },
+    {
+      "corpus": "real",
+      "mode": "raw",
+      "repeat": 1,
+      "ready_ms": 8.045106
+    },
+    {
+      "corpus": "real",
+      "mode": "raw",
+      "repeat": 2,
+      "ready_ms": 8.805241
+    },
+    {
+      "corpus": "real",
+      "mode": "raw",
+      "repeat": 3,
+      "ready_ms": 7.505216
+    },
+    {
+      "corpus": "real",
+      "mode": "raw",
+      "repeat": 4,
+      "ready_ms": 8.61926
+    },
+    {
+      "corpus": "real",
+      "mode": "raw",
+      "repeat": 5,
+      "ready_ms": 7.327801
+    },
+    {
+      "corpus": "real",
+      "mode": "raw",
+      "repeat": 6,
+      "ready_ms": 9.174138
+    },
+    {
+      "corpus": "real",
+      "mode": "raw",
+      "repeat": 7,
+      "ready_ms": 7.120589
+    },
+    {
+      "corpus": "large",
+      "mode": "raw",
+      "repeat": 0,
+      "ready_ms": 856.483725
+    },
+    {
+      "corpus": "large",
+      "mode": "raw",
+      "repeat": 1,
+      "ready_ms": 856.954153
+    },
+    {
+      "corpus": "large",
+      "mode": "raw",
+      "repeat": 2,
+      "ready_ms": 855.584115
+    },
+    {
+      "corpus": "large",
+      "mode": "raw",
+      "repeat": 3,
+      "ready_ms": 839.699162
+    },
+    {
+      "corpus": "large",
+      "mode": "raw",
+      "repeat": 4,
+      "ready_ms": 847.109238
+    },
+    {
+      "corpus": "large",
+      "mode": "raw",
+      "repeat": 5,
+      "ready_ms": 858.220886
+    },
+    {
+      "corpus": "large",
+      "mode": "raw",
+      "repeat": 6,
+      "ready_ms": 854.799944
+    },
+    {
+      "corpus": "large",
+      "mode": "raw",
+      "repeat": 7,
+      "ready_ms": 846.466914
+    },
+    {
+      "corpus": "unique",
+      "mode": "raw",
+      "repeat": 0,
+      "ready_ms": 2636.449583
+    },
+    {
+      "corpus": "unique",
+      "mode": "raw",
+      "repeat": 1,
+      "ready_ms": 2567.531095
+    },
+    {
+      "corpus": "unique",
+      "mode": "raw",
+      "repeat": 2,
+      "ready_ms": 2560.207261
+    },
+    {
+      "corpus": "unique",
+      "mode": "raw",
+      "repeat": 3,
+      "ready_ms": 2608.077179
+    },
+    {
+      "corpus": "unique",
+      "mode": "raw",
+      "repeat": 4,
+      "ready_ms": 2613.535108
+    },
+    {
+      "corpus": "unique",
+      "mode": "raw",
+      "repeat": 5,
+      "ready_ms": 2564.476964
+    },
+    {
+      "corpus": "unique",
+      "mode": "raw",
+      "repeat": 6,
+      "ready_ms": 2587.693124
+    },
+    {
+      "corpus": "unique",
+      "mode": "raw",
+      "repeat": 7,
+      "ready_ms": 2625.84144
+    },
+    {
+      "corpus": "nix",
+      "mode": "raw",
+      "repeat": 0,
+      "ready_ms": 3620.104166
+    },
+    {
+      "corpus": "nix",
+      "mode": "raw",
+      "repeat": 1,
+      "ready_ms": 3608.557014
+    },
+    {
+      "corpus": "nix",
+      "mode": "raw",
+      "repeat": 2,
+      "ready_ms": 3623.236129
+    },
+    {
+      "corpus": "nix",
+      "mode": "raw",
+      "repeat": 3,
+      "ready_ms": 3640.710454
+    },
+    {
+      "corpus": "nix",
+      "mode": "raw",
+      "repeat": 4,
+      "ready_ms": 3628.706098
+    },
+    {
+      "corpus": "nix",
+      "mode": "raw",
+      "repeat": 5,
+      "ready_ms": 3631.532325
+    },
+    {
+      "corpus": "nix",
+      "mode": "raw",
+      "repeat": 6,
+      "ready_ms": 3652.759479
+    },
+    {
+      "corpus": "nix",
+      "mode": "raw",
+      "repeat": 7,
+      "ready_ms": 3671.631313
+    }
+  ],
+  "sizes": [
+    {
+      "corpus": "real",
+      "checkpoint_before": 240311,
+      "raw_heap_bytes": 78340,
+      "raw_offsets_bytes": 11238,
+      "packed_names_file_bytes": 27581,
+      "replacement_payload_bytes": 178314
+    },
+    {
+      "corpus": "large",
+      "checkpoint_before": 169271809,
+      "raw_heap_bytes": 118768000,
+      "raw_offsets_bytes": 15249010,
+      "packed_names_file_bytes": 31175337,
+      "replacement_payload_bytes": 66430136
+    },
+    {
+      "corpus": "unique",
+      "checkpoint_before": 241343809,
+      "raw_heap_bytes": 189566000,
+      "raw_offsets_bytes": 16516498,
+      "packed_names_file_bytes": 335576834,
+      "replacement_payload_bytes": 370838145
+    },
+    {
+      "corpus": "nix",
+      "checkpoint_before": 477324238,
+      "raw_heap_bytes": 199855689,
+      "raw_offsets_bytes": 19381731,
+      "packed_names_file_bytes": 68284977,
+      "replacement_payload_bytes": 326371795
+    }
+  ],
+  "builds": {
+    "large": {
+      "wall_ms": 4424.315957,
+      "peak_kib": 1508872
+    },
+    "unique": {
+      "wall_ms": 6676.717588,
+      "peak_kib": 1577420
+    },
+    "nix": {
+      "wall_ms": 15996.230703,
+      "peak_kib": 2673840
+    }
+  }
+}

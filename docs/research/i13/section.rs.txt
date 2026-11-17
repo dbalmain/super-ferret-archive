@@ -1,0 +1,107 @@
+//! Bench-only roundtrip of the existing packed fields. Trusted generated
+//! input: this optimistic load omits full semantic cross-column validation.
+use super::{Keys, PackedNameLists, PackedStrings, ResidentNames};
+use std::io::{self, Read, Write};
+use std::path::Path;
+
+fn word(out: &mut Vec<u8>, n: usize) {
+    out.extend_from_slice(&(n as u64).to_le_bytes());
+}
+fn blob(out: &mut Vec<u8>, bytes: &[u8]) {
+    word(out, bytes.len());
+    out.extend_from_slice(bytes);
+}
+fn keys(out: &mut Vec<u8>, keys: &Keys) {
+    word(out, keys.width as usize);
+    word(out, keys.len);
+    blob(out, &keys.bytes);
+}
+
+struct Input {
+    file: std::io::BufReader<std::fs::File>,
+    hash: blake3::Hasher,
+}
+impl Input {
+    fn read(&mut self, bytes: &mut [u8]) -> io::Result<()> {
+        self.file.read_exact(bytes)?;
+        self.hash.update(bytes);
+        Ok(())
+    }
+    fn word(&mut self) -> io::Result<usize> {
+        let mut bytes = [0; 8];
+        self.read(&mut bytes)?;
+        Ok(u64::from_le_bytes(bytes) as usize)
+    }
+    fn blob(&mut self) -> io::Result<Vec<u8>> {
+        let n = self.word()?;
+        let mut bytes = vec![0; n];
+        self.read(&mut bytes)?;
+        Ok(bytes)
+    }
+    fn keys(&mut self) -> io::Result<Keys> {
+        let width = self.word()? as u32;
+        let len = self.word()?;
+        let bytes = self.blob()?;
+        if width > 57 || bytes.len() != (len * width as usize).div_ceil(8) + 8 {
+            return Err(io::Error::other("invalid packed keys"));
+        }
+        Ok(Keys { width, len, bytes })
+    }
+}
+impl ResidentNames {
+    /// Persists actual intpack fields, including codec padding, for i13.
+    pub fn i13_write(&self, path: &Path) -> io::Result<()> {
+        let mut bytes = Vec::new();
+        word(&mut bytes, self.distinct as usize);
+        word(&mut bytes, self.rows as usize);
+        blob(&mut bytes, &self.distinct_names.table);
+        keys(&mut bytes, &self.distinct_names.offsets);
+        keys(&mut bytes, &self.keys);
+        keys(&mut bytes, &self.postings.counts);
+        keys(&mut bytes, &self.postings.offsets);
+        blob(&mut bytes, &self.postings.bytes);
+        let hash = blake3::hash(&bytes);
+        bytes.extend_from_slice(hash.as_bytes());
+        let mut file = std::fs::File::create(path)?;
+        file.write_all(&bytes)?;
+        file.sync_all()
+    }
+    /// Reads real bytes into the same owned fields used by resident queries.
+    pub fn i13_read(path: &Path) -> io::Result<Self> {
+        let started = std::time::Instant::now();
+        let mut input = Input {
+            file: std::io::BufReader::new(std::fs::File::open(path)?),
+            hash: blake3::Hasher::new(),
+        };
+        let distinct = input.word()? as u32;
+        let rows = input.word()? as u32;
+        let table = input.blob()?;
+        let offsets = input.keys()?;
+        let keys = input.keys()?;
+        let counts = input.keys()?;
+        let post_offsets = input.keys()?;
+        let bytes = input.blob()?;
+        let mut digest = [0; 32];
+        input.file.read_exact(&mut digest)?;
+        if input.hash.finalize().as_bytes() != &digest
+            || keys.len != rows as usize
+            || offsets.len != distinct as usize + 1
+            || counts.len != distinct as usize
+            || post_offsets.len != offsets.len
+        {
+            return Err(io::Error::other("invalid name section"));
+        }
+        Ok(Self {
+            distinct_names: PackedStrings { table, offsets },
+            keys,
+            postings: PackedNameLists {
+                counts,
+                offsets: post_offsets,
+                bytes,
+            },
+            distinct,
+            rows,
+            build_time: started.elapsed(),
+        })
+    }
+}

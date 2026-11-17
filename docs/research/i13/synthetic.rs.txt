@@ -1,0 +1,54 @@
+//! Repeated source-name catalog; no source content or home-directory crawl.
+use std::path::Path;
+
+use ferret_catalog::{Content, Stat, Transaction};
+
+fn stat(ino: u64, mode: u32) -> Stat {
+    Stat {
+        dev: 1,
+        ino,
+        mode,
+        nlink: 1,
+        ..Stat::default()
+    }
+}
+
+fn main() -> Result<(), Box<dyn std::error::Error>> {
+    let args: Vec<_> = std::env::args().collect();
+    let names = std::fs::read_to_string(&args[2])?;
+    let names: Vec<_> = names.lines().collect();
+    let dirs: u32 = args[3].parse()?;
+    let mut transaction = Transaction::begin(Path::new(&args[1]), 1)?;
+    let mut batch = transaction.batch();
+    let root = batch.root(b"/tmp/i13/synthetic-tree", stat(1, 0o040755));
+    batch.entry_count(root, dirs);
+    let mut ino = 2u64;
+    for number in 0..dirs {
+        let name = format!("package-{number:06}");
+        let dir = batch.dir(root, name.as_bytes(), stat(ino, 0o040755));
+        ino += 1;
+        batch.entry_count(dir, names.len() as u32);
+        for name in &names {
+            let unique;
+            let bytes = if args.get(4).is_some_and(|arg| arg == "unique") && *name != "Cargo.toml" {
+                unique = match name.rsplit_once('.') {
+                    Some((stem, extension)) => format!("{stem}-{number:06}.{extension}"),
+                    None => format!("{name}-{number:06}"),
+                };
+                unique.as_bytes()
+            } else {
+                name.as_bytes()
+            };
+            batch.file(dir, bytes, stat(ino, 0o100644), Content::Unindexed);
+            ino += 1;
+        }
+    }
+    transaction.add(batch);
+    let catalog = transaction.commit()?;
+    println!(
+        "names={} inodes={}",
+        catalog.name_count(),
+        catalog.inode_count()
+    );
+    Ok(())
+}
